@@ -30,7 +30,9 @@ Los siguientes comandos sirven para la subida de archivos y commits para
         git remote add origin git@github.com:Bunyzilla/HelloNode.git
         git push -u origin master
 
+El siguiente comando sirve para dockerizar la aplicacion
 
+	-	docker run -p 49160:1111 -d hana/node-web-server-app
 
 
 
